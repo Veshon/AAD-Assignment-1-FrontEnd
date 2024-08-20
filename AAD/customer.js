@@ -37,6 +37,7 @@ $(document).ready(function () {
             }
         })
     })
+
     ///////////////////////////////////////Delete/////////////////////////////////////////////
     $("#delete").click(function(event) {
         event.preventDefault();
@@ -106,6 +107,7 @@ $(document).ready(function () {
             }
         })
     })
+
     //////////////////////////////////Clear/////////////////////////////////////////
     $("#clear").click(function() {
         clearFields()
