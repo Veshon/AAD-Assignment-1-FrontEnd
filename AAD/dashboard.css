@@ -1,0 +1,30 @@
+.dashMainBox{
+    position: absolute;
+    right: 0;
+    left: 30%;
+    top: 0;
+    bottom: 0;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#cusBox{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+#itemBox{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+#orderBox{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
