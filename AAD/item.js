@@ -37,4 +37,34 @@ $(document).ready(function () {
             }
         })
     })
+
+    ///////////////////////////////////////Delete/////////////////////////////////////////////
+    $("#delete").click(function(event) {
+        event.preventDefault();
+
+        let codeE = $("#code").val();
+
+        console.log(codeE);
+
+        const itemData = {
+            code: codeE,
+        };
+
+        console.log(itemData);
+
+        const itemJSON = JSON.stringify(itemData);
+        console.log(itemJSON);
+
+        $.ajax({
+            url: "http://localhost:8080/item?code=" + codeE,
+            type: "DELETE",
+            headers: { "Content-Type": "application/json" },
+            success: (res) => {
+                console.log(JSON.stringify(res));
+            },
+            error: (res) => {
+                console.error(res);
+            }
+        });
+    });
 })
