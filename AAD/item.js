@@ -107,4 +107,16 @@ $(document).ready(function () {
             }
         })
     })
+
+    //////////////////////////////////Clear/////////////////////////////////////////
+    $("#clear").click(function() {
+        clearFields()
+    })
+
+    function clearFields() {
+        document.getElementById('code').value = '';
+        document.getElementById('desc').value = '';
+        document.getElementById('qty').value = '';
+        document.getElementById('price').value = '';
+    }
 })
