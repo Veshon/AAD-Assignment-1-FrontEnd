@@ -1,3 +1,6 @@
+body{
+    background: #265FC6;
+}
 .dashMainBox{
     position: absolute;
     right: 0;
@@ -12,16 +15,31 @@ img{
 }
 
 #cusBox{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 9px;
+    left: -80px;
+
 }
 
 #itemBox{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: -80px;
+
 }
 
 #orderBox{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: -80px;
+
+}
+
+button{
+    border-radius: 30%;
+    border-color: white;
 }

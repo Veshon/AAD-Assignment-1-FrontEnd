@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="orderForm.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="orderForm.js"></script>
+</head>
+<body>
+
+<h4 style="position: absolute; left: 37%;">Place Order Form</h4>
+
+<form style="max-width: 200px; position:absolute; top: 50px; left: 20px">
+
+  <div class="mb-3">
+    <label for="oId" class="form-label">ID</label>
+    <input type="text" class="form-control" id="oId" placeholder="ID">
+  </div>
+
+  <div class="mb-3">
+    <label for="cusId" class="form-label">Name</label>
+    <input type="text" class="form-control" id="cusId" placeholder="Name">
+  </div>
+
+  <div class="mb-3">
+    <label for="itemId" class="form-label">Address</label>
+    <input type="text" class="form-control" id="itemId" placeholder="Address">
+  </div>
+
+</form>
+
+<form style="max-width: 200px; position:absolute; top: 50px; left: 280px">
+
+    <div class="mb-3">
+        <label for="cusName" class="form-label">ID</label>
+        <input type="text" class="form-control" id="cusName" placeholder="ID">
+    </div>
+
+    <div class="mb-3">
+        <label for="desc" class="form-label">Name</label>
+        <input type="text" class="form-control" id="desc" placeholder="Name">
+    </div>
+
+    <div class="mb-3">
+        <label for="qtyOnHand" class="form-label">Address</label>
+        <input type="text" class="form-control" id="qtyOnHand" placeholder="Address">
+    </div>
+
+</form>
+
+<form style="max-width: 200px; position:absolute; top: 50px; left: 550px">
+
+    <div class="mb-3">
+        <label for="price" class="form-label">ID</label>
+        <input type="text" class="form-control" id="price" placeholder="ID">
+    </div>
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Name">
+    </div>
+
+    <div class="mb-3">
+        <label for="total" class="form-label">Address</label>
+        <input type="text" class="form-control" id="total" placeholder="Address">
+    </div>
+</form>
+
+
+<div id="tableDiv" style="position:relative; top: 300px">
+    <table id="cusTbl" class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Mobile</th>
+        </tr>
+        </thead>
+                    <tr>
+                        <td>dbffac7d-c34f-4f1c-95c5-f35afef793ed</td>
+                        <td>Sam</td>
+                        <td>UK</td>
+                        <td>8651553</td>
+                    </tr>
+
+        <tbody id="cusTBody">
+
+        </tbody>
+
+    </table>
+</div>
+
+</body>
+</html>

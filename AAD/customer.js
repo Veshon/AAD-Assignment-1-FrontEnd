@@ -120,3 +120,25 @@ function clearFields() {
     document.getElementById('address').value = '';
     document.getElementById('mobile').value = '';
 }
+
+/*
+$.ajax({
+    url: 'http://localhost:8080/customer',
+    method: 'GET',
+    dataType: 'json',
+    success: function(data) {
+        const tableBody = $('#cusTbl tbody');
+        data.forEach(user => {
+            const row = `<tr>
+                                    <td>${user.id}</td>
+                                    <td>${user.name}</td>
+                                    <td>${user.address}</td>
+                                    <td>${user.mobile}</td>
+                                 </tr>`;
+            tableBody.append(row);
+        });
+    },
+    error: function(jqXHR, textStatus, errorThrown) {
+        console.error('Error fetching user data:', textStatus, errorThrown);
+    }
+});*/
