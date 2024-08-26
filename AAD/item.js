@@ -31,9 +31,19 @@ $(document).ready(function () {
             headers: {"Content-Type": "application/json"},
             success: (res) => {
                 console.log(JSON.stringify(res));
+                successBanner.classList.remove('hidden');
+                successBanner.style.display = 'block';
+                setTimeout(function() {
+                    successBanner.style.display = 'none';
+                }, 3000);
             },
             error: (res) => {
                 console.error(res);
+                notSuccessBanner.classList.remove('hidden');
+                notSuccessBanner.style.display = 'block';
+                setTimeout(function() {
+                    notSuccessBanner.style.display = 'none';
+                }, 3000);
             }
         })
     })
@@ -61,9 +71,19 @@ $(document).ready(function () {
             headers: { "Content-Type": "application/json" },
             success: (res) => {
                 console.log(JSON.stringify(res));
+                deleteBanner.classList.remove('hidden');
+                deleteBanner.style.display = 'block';
+                setTimeout(function() {
+                    deleteBanner.style.display = 'none';
+                }, 3000);
             },
             error: (res) => {
                 console.error(res);
+                notSuccessBanner.classList.remove('hidden');
+                notSuccessBanner.style.display = 'block';
+                setTimeout(function() {
+                    notSuccessBanner.style.display = 'none';
+                }, 3000);
             }
         });
     });
@@ -101,9 +121,19 @@ $(document).ready(function () {
             headers: { "Content-Type": "application/json" },
             success: (res) => {
                 console.log(JSON.stringify(res));
+                successBannerUpdate.classList.remove('hidden');
+                successBannerUpdate.style.display = 'block';
+                setTimeout(function() {
+                    successBannerUpdate.style.display = 'none';
+                }, 3000);
             },
             error: (res) => {
                 console.error(res);
+                notSuccessBannerUpdate.classList.remove('hidden');
+                notSuccessBannerUpdate.style.display = 'block';
+                setTimeout(function() {
+                    notSuccessBannerUpdate.style.display = 'none';
+                }, 3000);
             }
         })
     })
