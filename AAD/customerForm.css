@@ -1,3 +1,85 @@
+#successBanner {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    position: relative;
+    top: -190px;
+    bottom: 0;
+    right: 0;
+    left: 220px;
+    /*width: 180px;*/
+    height: 75px;
+}
+
+#successBannerUpdate {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    position: relative;
+    top: -190px;
+    bottom: 0;
+    right: 0;
+    left: 220px;
+    /*width: 180px;*/
+    height: 75px;
+}
+#notSuccessBannerUpdate {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    position: relative;
+    top: -190px;
+    bottom: 0;
+    right: 0;
+    left: 220px;
+    /*width: 180px;*/
+    height: 75px;
+}
+
+#notSuccessBanner {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    position: relative;
+    top: -190px;
+    bottom: 0;
+    right: 0;
+    left: 220px;
+    /*width: 180px;*/
+    height: 75px;
+}
+.hidden {
+    display: none;
+}
+
+#deleteBanner {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    position: relative;
+    top: -190px;
+    bottom: 0;
+    right: 0;
+    left: 220px;
+    /*width: 180px;*/
+    height: 75px;
+}
+
 h4{
     position: absolute;
     left: 40%;
@@ -24,6 +106,7 @@ h4{
 button{
     width: 70px;
     height: 30px;
+    text-align: center;
 }
 
 #homeBtn{
