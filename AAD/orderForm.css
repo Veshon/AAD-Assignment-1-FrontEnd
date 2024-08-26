@@ -1,0 +1,23 @@
+#placeOrderBtn{
+    width: 130px;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+#addToCartBtn{
+    position: absolute;
+    top: 220px;
+    left: 60px;
+}
+
+table{
+    position: relative;
+    top: 20px;
+}
+
+.form-control{
+    width: 1000px;
+    height: 25px;
+    font-size: 5px;
+}
